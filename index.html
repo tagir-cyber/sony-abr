@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+    <link rel="stylesheet" href="./js/accordion/accordion.min.css">
+   
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a class="logo" href="">
+                <img src="./img/logo.png" alt="Лого" width="80px" height="80px">
+            </a>
+            <nav class="nav">
+                <ul class="nav__list list-reset">
+                    <li class="nav__item">
+                        <a class="nav__link" href="">
+                            Обо мне
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="">
+                            Услуги и цены
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container hero__container">
+                <img class="hero__img" width="560" src="./img/hero__img.png" alt="Картинка">
+                <div class="hero__descr">
+                    <p class="hero__text hero--hello">Здравствуйте!</p>
+                    <p class="hero__text">
+                        Я, Абрамова София, практикующий клинический
+
+                        психолог и специалист по EMDR терапии. Автор статей, курсов, книг и трех Ютуб каналов про
+                        психологию. Являюсь членом Профессиональной Психотерапевтической Лиги и Ассоциации EMDR России
+                    </p>
+                    <button class="hero__btn" id="#form">Записаться</button>
+                </div>
+            </div>
+            <div class="container hero__container-bottom">
+                <div class="hero__inner">
+                    <div class="hero__block about-me--image-1">
+                        <div class="hero__about-me">
+                            <h3 class="hero__block-title">Образование</h3>
+                            <ul class="about-me">
+                                <li class="about-me__item">
+                                    Закончила Институт Психотерапии и Клинической Психологии, город Москва, квалификация - клинический психолог
+                                </li>
+                                <li class="about-me__item">
+                                    Дополнительно проходила повышение квалификации в Московском Институте Психоанализа и в Институте Психотерапии и Медицинской Психологии имени Б.Д. Карвасарского
+                                </li>
+                                <li class="about-me__item">
+                                    Все дипломы можно посмотреть <a class="about-me__link" href="#">здесь</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hero__block about-me--image-2">
+                        <div class="hero__about-me">
+                            <h3 class="hero__block-title">Специализации</h3>
+                            <ul class="about-me">
+                                <li class="about-me__item">
+                                    Закончила Институт Психотерапии и Клинической Психологии, город Москва, квалификация - клинический психолог
+                                </li>
+                                <li class="about-me__item">
+                                    Дополнительно проходила повышение квалификации в Московском Институте Психоанализа и в Институте Психотерапии и Медицинской Психологии имени Б.Д. Карвасарского
+                                </li>
+                                <li class="about-me__item">
+                                    Все дипломы можно посмотреть <a href="#">здесь</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service">
+            <div class="container">
+                <h2 class="title-2">Услуги и цены</h2>
+                <div class="accordion">
+                    <div class="ac">
+                      <h2 class="ac-header">
+                        <button type="button" class="ac-trigger">Консультация</button>
+                      </h2>
+                      <div class="ac-panel">
+                        <p class="ac-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a class="link-to-form link-btn" href="#">Записаться</a>
+                      </div>
+                    </div>
+                  
+                    <div class="ac">
+                      <h2 class="ac-header">
+                        <button type="button" class="ac-trigger">Пакет консультаций</button>
+                      </h2>
+                      <div class="ac-panel">
+                        <ul class="accordion__list">
+                            <li class="ac-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li class="ac-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li class="ac-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li class="ac-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                          </ul>
+                          <a class="link-to-form link-btn" href="#">Записаться</a>
+                      </div>
+                     
+                    </div>
+
+                  </div>
+            </div>
+            <div class="container">
+                <!-- <h3 class="margin-reset title-3">Онлайн продукты</h3> -->
+                <ul class="cards list-reset">
+                    <li class="card__item">
+                        <article class="card">
+                            <div class="card__inner">
+                                <h4 class="margin-reset card__title">Личные границы</h4>
+                                <p class="margin-reset card__text">
+                                    Реализуйте себя со всех сторон!
+                                </p>
+                                <div class="button__wrapper">
+                                    <div class="card__price">
+                                        <span class="price">2 999₽</span>
+                                        <a class="card__btn" href="#">Подробнее</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="card__item">
+                        <article class="card">
+                            <div class="card__inner">
+                                <h4 class="margin-reset card__title">Личные границы</h4>
+                                <p class="margin-reset card__text">
+                                    Реализуйте себя со всех сторон!
+                                </p>
+                                <div class="button__wrapper">
+                                    <div class="card__price">
+                                        <span class="price">2 999₽</span>
+                                        <a class="card__btn" href="#">Подробнее</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="card__item">
+                        <article class="card">
+                            <div class="card__inner">
+                                <h4 class="margin-reset card__title">Личные границы</h4>
+                                <p class="margin-reset card__text">
+                                    Реализуйте себя со всех сторон!
+                                </p>
+                                <div class="button__wrapper">
+                                    <div class="card__price">
+                                        <span class="price">2 999₽</span>
+                                        <a class="card__btn" href="#">Подробнее</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="tests">
+            <div class="container">
+                <h2 class="tests__title title-2 margin-reset">Тесты</h2>
+                <ul class="list-reset tests__cards">
+                    <li class="tests__item">
+                        <article class="tests__card">
+                            <h3 class="tests__card-title">Тест Тейлора</h3>
+                            <p class="tests__card-descr">ЛИЧНОСТНАЯ ШКАЛА ПРОЯВЛЕНИЙ ТРЕВОГИ</p>
+                            <a class="tests__card-button button" href="#">Подробнее</a>
+                        </article>
+                    </li>
+                    <li class="tests__item">
+                        <article class="tests__card">
+                            <h3 class="tests__card-title">Тест Тейлора</h3>
+                            <p class="tests__card-descr">ЛИЧНОСТНАЯ ШКАЛА ПРОЯВЛЕНИЙ ТРЕВОГИ</p>
+                            <a class="tests__card-button button" href="#">Подробнее</a>
+                        </article>
+                    </li>
+                    <li class="tests__item">
+                        <article class="tests__card">
+                            <h3 class="tests__card-title">Тест Тейлора</h3>
+                            <p class="tests__card-descr">ЛИЧНОСТНАЯ ШКАЛА ПРОЯВЛЕНИЙ ТРЕВОГИ</p>
+                            <a class="tests__card-button button" href="#">Подробнее</a>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="js/accordion/accordion.min.js"></script>
+</body>
+
+</html>
