@@ -314,53 +314,7 @@ body {
     font-weight: 500;
 }
 
-.tests {
-    padding: 60px 0;
-}
 
-.tests__title {
-    color: var(--font-color);
-}
-
-.tests__cards {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
-.tests__item {
-    width: calc(100%/2 - 30px/2);
-    min-height: 200px;
-    /* background-color: red; */
-    /* outline: 2px solid red; */
-}
-
-.tests__card {
-    width: 100%;
-    height: 100%;
-    padding: 30px;
-    border-radius: 10px;
-    background-color: var(--font-color);
-}
-
-.tests__card-title {
-    color: #fff;
-    font-size: 28px;
-    font-weight: 400;
-    margin: 0;
-    margin-bottom: 30px;
-    letter-spacing: 1px;
-}
-
-.tests__card-descr {
-    margin: 0;
-    margin-bottom: 50px;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #fff;
-}
 
 .button {
     display: inline-block;
