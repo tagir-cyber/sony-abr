@@ -1,3 +1,23 @@
+@media(max-width: 900px){
+    .footer__main{
+        flex-wrap: wrap;
+    }
+
+    .footer__inner-logo{
+        margin-right: 200px;
+        margin-bottom: 40px;
+    }
+
+    .footer__sotial{
+        display: flex;
+    }
+
+    .footer__item{
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+}
+
 @media(max-width: 860px){
     .hero__block{
         flex-direction: column;
@@ -21,6 +41,10 @@
     .hero__block::before{
         margin-right: 0;
         margin-bottom: 20px;
+    }
+
+    .footer__inner-box{
+        margin-bottom: 40px;
     }
 }
 
@@ -64,5 +88,17 @@
 
     .ac .ac-trigger {
         font-size: 22px;
+    }
+
+    .footer__inner-box{
+        flex-direction: column;
+    }
+
+    .footer__box{
+        margin-bottom: 40px;
+    }
+
+    .footer__bootom-box{
+        padding: 50px;
     }
 }
